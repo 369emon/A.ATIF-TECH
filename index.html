@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.ATIF TECH - Trusted Store for New & Used Devices</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="A.ATIF TECH Logo" onerror="this.style.display='none'">
+                <span class="logo-text">A.ATIF TECH</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-shield-alt"></i> Trusted Store for New & Used Devices
+            </div>
+            <h1>Welcome to <span>A.ATIF TECH</span></h1>
+            <p>Your one-stop destination for high-quality first-hand & second-hand electronics at dealer prices. We buy and sell laptops, desktops, phones, and more with warranty and reliable after-sales support.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary" id="heroWhatsappBtn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Us
+                </a>
+                <a href="#products" class="btn btn-secondary">
+                    <i class="fas fa-shopping-cart"></i> View Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-title">
+            <h2>Our Products & Services</h2>            <p>We offer a wide range of high-quality electronics, all thoroughly checked and well-conditioned</p>
+        </div>
+        <div class="products-grid" id="productsGrid">
+            <!-- Products will be loaded from JavaScript -->
+        </div>
+
+        <div class="dealer-banner">
+            <h3><i class="fas fa-tags"></i> Special Note</h3>
+            <p>All products are sold at <strong>Dealer Price</strong> - Best deals guaranteed!</p>
+            <a href="#" class="btn-whatsapp" id="dealerPriceBtn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat for Best Price
+            </a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us">
+        <div class="section-title">
+            <h2>Why Choose Us?</h2>
+            <p>We're committed to providing you with the best shopping experience and quality products</p>
+        </div>
+        <div class="features-grid" id="featuresGrid">
+            <!-- Features will be loaded from JavaScript -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Visit our store or contact us for inquiries and purchases</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Location</strong>
+                        <p id="storeLocation">Level 3, Plaza Low Yat<br>Bukit Bintang, Kuala Lumpur</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <a href="#" id="contactWhatsappLink" target="_blank">+60 11-6394 5396</a>
+                    </div>
+                </div>
+                <div class="contact-item">                    <i class="fas fa-clock"></i>
+                    <div>
+                        <strong>Business Hours</strong>
+                        <p>Monday - Sunday: 10:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email</strong>
+                        <a href="mailto:contact@aatiftech.com">contact@aatiftech.com</a>
+                    </div>
+                </div>
+
+                <div class="social-links" id="socialLinks">
+                    <!-- Social links will be loaded from JavaScript -->
+                </div>
+                
+                <a href="#" class="btn btn-primary" id="contactMessageBtn" style="margin-top: 1.5rem; width: 100%; justify-content: center;" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Message Us Now
+                </a>
+            </div>
+
+            <div class="map-container">
+                <h3>Find Us</h3>
+                <div class="map-placeholder">
+                    <a href="#" id="googleMapsLink" target="_blank">
+                        <i class="fas fa-map-marked-alt" style="font-size: 3rem; margin-bottom: 1rem; display: block;"></i>
+                        <strong>Plaza Low Yat, Level 3</strong><br>
+                        Bukit Bintang, Kuala Lumpur<br>
+                        <small style="margin-top: 0.5rem; display: block;">🗺️ Click to open in Google Maps</small>
+                    </a>
+                </div>
+                <p style="color: var(--text-gray); text-align: center;">
+                    <i class="fas fa-info-circle"></i> 
+                    Located in the heart of Kuala Lumpur's tech hub
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">A.ATIF TECH</div>
+            <p class="footer-tagline">🔷 Trusted Store for New & Used Devices 🔷</p>
+            <p style="color: var(--text-gray); margin-bottom: 1rem;">
+                Your reliable partner for quality electronics at dealer prices
+            </p>
+            <div class="social-links" id="footerSocialLinks" style="justify-content: center; margin: 2rem 0;">                <!-- Footer social links will be loaded from JavaScript -->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 A.ATIF TECH. All Rights Reserved.</p>
+                <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+                    Level 3, Plaza Low Yat, Bukit Bintang, Kuala Lumpur
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Load Configuration first, then script -->
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+                          </html>
