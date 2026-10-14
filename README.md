@@ -2,15 +2,8 @@
 
 🔷 Trusted Store for New & Used Devices 🔷
 
-## 🌐 Live Site
-[Visit Website](https://yourusername.github.io/aatif-tech)
-
 ## 📍 Location
 Level 3, Plaza Low Yat, Bukit Bintang, Kuala Lumpur, Malaysia
-
-## 📞 Contact
-- WhatsApp: [+60 11-6394 5396](https://wa.me/601163945396)
-- Instagram: [@a.atif_tech](https://www.instagram.com/a.atif_tech)
 
 ## 🛠️ Built With
 - Tailwind CSS (via CDN)
